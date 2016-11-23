@@ -26,6 +26,8 @@ JDK를 wget으로 다운로드시에 사이트의 said cookie를 설정할수 �
     PATH=$PATH:$JAVA_HOME/bin
     export JAVA_HOME CLASSPATH PATH
 
+저장후
+
     # source /etc/profile
     # java -vsrsion
     # javac -version
