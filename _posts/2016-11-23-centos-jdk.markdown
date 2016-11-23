@@ -7,11 +7,11 @@ category : centos
 ## Bit 확인
     # getconf LONG_BIT
     
-JDK를 wget으로 다운로드시에 사이트의 said cookie를 설정할수 없기에  파일을 직접 옮기거나 다른 서버에서 받는다.
+`JDK를 wget으로 다운로드시에 사이트의 said cookie를 설정할수 없기에  파일을 직접 옮기거나 다른 서버에서 받는다.`
 
 ## JDK 설치
     # tar xvzf jdk-8u111-linux-x64.tar.gz
-    # mv jdk1.8.0_111 /usr/local
+    # mv jdk1.8.0_111/ /usr/local
     # cd /usr/local
     # ln -s jdk1.8.0_111/ java
     
