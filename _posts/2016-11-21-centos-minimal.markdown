@@ -20,15 +20,15 @@ DHCP 사용시 ONBOOT=no -> ONBOOT=yes
     # service network restart
 
 ## SSH 추가
-
     # yum install -y openssh-server
     # service sshd start
     # chkconfig sshd on
 
 ## IFCONFIG 추가
-
     # yum install -y net-tools
 
-## Update
+## 다른 모듈 Compile을 위한 설치
+    # yum install -y gcc cc cl
 
+## Update
 	# yum update -y
